@@ -1,0 +1,59 @@
+ h3{
+    margin: 0em auto 0.5em;
+        font-family: "grecian-light-face",sans-serif;
+        font-size: 2.05em;
+        background: url(img-lg-horiz-border.png) repeat-x top center, url(img-lg-horiz-border.png) repeat-x bottom left;
+        background-size: 12em;
+        padding: 0.25em 0;
+    }
+
+    body{
+    
+        border-top: 45px solid transparent;
+        margin: 0 auto -45px;
+        color: #2d6120;
+        background-color: #8db58d;
+    }
+
+    img{
+        width: 10%;
+    }
+
+body {
+    color: #518249;
+    background-color: #edf6e3;
+    background:url("image/bgg.jpg") 
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    font-size: 15px;
+    line-height: 14px;
+    font-family: Cochin, Georgia, "New Century Schoolbook", "Bitstream Vera Serif", "Times New Roman", times, serif;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    }
+
+    table{
+        border-collapse: collapse;
+        text-align: center;
+}
+td{
+    text-align: left;
+    height: 50px;
+    vertical-align: middle;
+    padding: 15px;
+}
+th{
+    height: 50px;
+    padding: 15px;
+    background-color: #76cc40;
+
+}
+tr:hover{
+    background-color: #add4ad;
+}
+caption{
+    font-size: 20px;
+}
+
