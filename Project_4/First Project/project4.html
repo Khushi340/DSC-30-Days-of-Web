@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Todo List</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/project4.css" type="text/css" media="screen" charset="utf-8">    
+  </head>
+  <body>
+
+    <div class="container">
+      <p>
+        <label for="new-task">Add Item</label><input id="new-task" type="text"><button>Add item</button>
+      </p>
+      
+      <h3>Todo</h3>
+      <p>After completing your tasks,click on the checkbox</p>
+      <ul id="incomplete-tasks">
+        <li><input type="checkbox"><label>Read the content of Backend Day 2</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+        <li><input type="checkbox"><label>To submit JS Project(2)</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+
+      </ul>
+      
+      <h3>Completed</h3>
+      <ul id="completed-tasks">
+      	<li><input type="checkbox" checked><label>Combined Project</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+        <li><input type="checkbox" checked><label>Barebone portfolio</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+        <li><input type="checkbox" checked><label>Read the Content related to HTML,CSS</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+        <li><input type="checkbox" checked><label>Read the Content related to JS</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+      </ul>
+    </div>
+
+    <script type="text/javascript" src="todo.js"></script>
+
+  </body>
+</html>
